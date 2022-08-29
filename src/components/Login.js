@@ -49,7 +49,7 @@ function Login(props) {
           }
         )} 
       />
-      <span>{errors.email && errors.email.message}</span>
+      <span>{errors.email?.message}</span>
     </div>
     <div>
       <label className="formControls_label" htmlFor="pwd">密碼</label>
